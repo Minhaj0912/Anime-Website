@@ -1,0 +1,324 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+  height: 10px;
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #474646;
+}
+
+#nav-main {
+  height: 65px;
+  width: 100%;
+  background-color: #181818;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 2;
+  padding-top: -1px;
+  margin-top: 0px;
+  padding-bottom: 10px;
+}
+
+.nav-items {
+  list-style-type: none;
+  color: white;
+  display: inline;
+  position: fixed;
+}
+
+/* 3 Bars */
+
+#categories {
+  position: fixed;
+  top: 14px;
+  padding: 0px;
+}
+
+.fa-bars {
+  zoom: 2.4;
+}
+
+/* *      <--- Categories Section --->     * */
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #181818;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.dropdown-content a:hover {
+  text-decoration: none;
+  background-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Website Logo */
+.logo {
+  width: 15%;
+  left: 100px;
+  position: absolute;
+  top: 1px;
+}
+
+/* Search Bar */
+
+.search-bar {
+  position: fixed;
+  display: inline-block;
+}
+
+#search-bar {
+  position: fixed;
+  top: 14px;
+  left: 35%;
+}
+
+#search-input {
+  width: 286px;
+  border-radius: 0.5rem;
+}
+
+#search-bar button {
+  background-color: #6a41d2;
+  border: none;
+  border-color: transparent;
+}
+
+#search-bar button i {
+  font-size: 20px;
+  color: white;
+}
+
+/* Manga Links */
+
+.read-manga {
+  font-size: 20px;
+  position: fixed;
+  top: 14px;
+  left: 70%;
+  color: white;
+  text-decoration: none;
+}
+
+/*Subscribe */
+
+#subscribe {
+  position: fixed;
+  top: 14px;
+  padding: 0px;
+  left: 92%;
+}
+
+#subscribe button {
+  background-color: #6a41d2;
+  border: none;
+  border-color: transparent;
+}
+
+/* Trending Section */
+
+.trending-section {
+  cursor: grab;
+  /* For not copy/paste */
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.poster-details {
+  width: 30%;
+  position: absolute;
+  top: 100px;
+  left: 10px;
+}
+
+.poster-details h1 {
+  font-size: 75px;
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+.poster-details p {
+  color: #9e9d9d;
+}
+
+.poster-details button {
+  position: absolute;
+  background-color: #6a41d2;
+  width: 200px;
+  margin: 10px 0px 0px 0px;
+  border: none;
+  border-color: transparent;
+}
+
+.poster-details button:hover {
+  background-color: #7d4ff1;
+}
+
+.poster-img {
+  position: relative;
+  top: 40px;
+  left: 540px;
+}
+
+.poster {
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 950px;
+  height: 450px;
+}
+
+/* Categories */
+
+.slider {
+  border-radius: 25px;
+  background-position: left top;
+  background-repeat: repeat;
+  width: 200px;
+  height: 300px;
+}
+.Categories-title {
+  font-family: "Roboto Slab", serif;
+  color: white;
+  font-weight: bold;
+}
+
+.titles {
+  font-family: "Roboto Slab", serif;
+  color: white;
+  text-align: center;
+}
+
+/* Elements */
+
+.elementHref {
+  text-decoration: none;
+}
+
+/* Action */
+
+.action {
+  position: absolute;
+  width: 97%;
+  top: 75%;
+  left: 10px;
+}
+
+/* Adventure */
+
+.adventure {
+  position: absolute;
+  width: 97%;
+  top: 130%;
+  left: 10px;
+}
+
+/* Comedy */
+
+.comedy {
+  position: absolute;
+  width: 97%;
+  top: 185%;
+  left: 10px;
+}
+
+/* Fantasy */
+
+.fantasy {
+  position: absolute;
+  width: 97%;
+  top: 240%;
+  left: 10px;
+}
+
+/* Horror */
+
+.horror {
+  position: absolute;
+  width: 97%;
+  top: 295%;
+  left: 10px;
+}
+
+/* Romance */
+
+.romance {
+  position: absolute;
+  width: 97%;
+  top: 350%;
+  left: 10px;
+}
+
+/* Sci-Fi */
+
+.sci-fi {
+  position: absolute;
+  width: 97%;
+  top: 405%;
+  left: 10px;
+}
+
+/* Footer */
+
+.footer {
+  position: absolute;
+  top: 460%;
+}
+
+.background-image {
+  height: 200px;
+  width: 1525px;
+  filter: blur(2px);
+  filter: grayscale(20%);
+  z-index: 0;
+}
+
+.footer-elements {
+  position: absolute;
+  top: 10%;
+  left: 14px;
+}
+
+.footer-logo {
+  height: 50px;
+}
+
+.footer p {
+  color: rgb(216, 204, 204);
+}
